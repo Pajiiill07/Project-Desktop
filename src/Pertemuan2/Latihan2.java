@@ -77,11 +77,11 @@ public class Latihan2 {
         j.add(jenis);
         
         JRadioButton jenisradio1 = new JRadioButton("Fiksi");
-        jenisradio1.setBounds(225, 325, 200, 30);
+        jenisradio1.setBounds(225, 325, 65, 30);
         j.add(jenisradio1);
         
         JRadioButton jenisradio2 = new JRadioButton("Non Fiksi");
-        jenisradio2.setBounds(225, 350, 200, 30);
+        jenisradio2.setBounds(290, 325, 100, 30);
         j.add(jenisradio2);
         
         ButtonGroup G1 = new ButtonGroup();
@@ -90,16 +90,16 @@ public class Latihan2 {
         
         JLabel ket = new JLabel();
         ket.setText("Keterangan");
-        ket.setBounds(125, 380, 100, 30);
+        ket.setBounds(125, 370, 100, 30);
         j.add(ket);
         
         JTextArea ketTxt = new JTextArea();
-        ketTxt.setBounds(225, 380, 200, 100);
+        ketTxt.setBounds(225, 370, 200, 100);
         j.add(ketTxt);
         
         JButton button = new JButton();
         button.setText("Save");
-        button.setBounds(355, 500, 70, 24);
+        button.setBounds(355, 490, 70, 24);
         j.add(button);
         
         j.setSize(600, 750);
