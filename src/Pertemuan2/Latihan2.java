@@ -88,14 +88,14 @@ public class Latihan2 {
         G1.add(jenisradio1);
         G1.add(jenisradio2);
         
-        JLabel ket = new JLabel();
-        ket.setText("Keterangan");
-        ket.setBounds(125, 370, 100, 30);
+        JLabel keterangan = new JLabel();
+        keterangan.setText("Keterangan");
+        keterangan.setBounds(125, 370, 100, 30);
         j.add(ket);
         
-        JTextArea ketTxt = new JTextArea();
-        ketTxt.setBounds(225, 370, 200, 100);
-        j.add(ketTxt);
+        JTextArea keteranganTxt = new JTextArea();
+        keteranganTxt.setBounds(225, 370, 200, 100);
+        j.add(keteranganTxt);
         
         JButton button = new JButton();
         button.setText("Save");
