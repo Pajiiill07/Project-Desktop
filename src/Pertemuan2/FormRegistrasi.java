@@ -48,7 +48,7 @@ public class FormRegistrasi {
         nomorhp.setBounds(75, 280, 100, 30);
         j.add(nomorhp);
         
-        JTextArea alamat = new JTextArea();
+        JLabel alamat = new JLabel();
         alamat.setText("Alamat");
         alamat.setBounds(75, 325, 100, 30);
         j.add(alamat);
