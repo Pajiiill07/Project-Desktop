@@ -66,7 +66,12 @@ public class Latihan2 {
         tahun.setBounds(125, 280, 100, 30);
         j.add(tahun);
         
-        String tahun1[] = {"2023","2022","2021","2020","2019","2018","2017","2016","2015","2014","2013","2012","2011","2010"};
+        String tahun1[] = new String[1990];
+        int nn = 1990;
+        for(int i = 0; i > 1990; i++){
+            tahun1[i] = nn - "";
+            nn++
+        }
         JComboBox tahuncb = new JComboBox(tahun1);
         tahuncb.setBounds(225, 280, 200, 30);
         j.add(tahuncb);
